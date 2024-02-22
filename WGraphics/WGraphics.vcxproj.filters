@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\items">
+      <UniqueIdentifier>{7626cda1-61c6-4a74-8f0e-cc427d234643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items">
+      <UniqueIdentifier>{79ed6271-48dc-4566-b05c-1ce1e0484783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\widget">
+      <UniqueIdentifier>{ad174c51-2fca-4f16-8780-26feeece2fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget">
+      <UniqueIdentifier>{47a905d2-179c-49ab-8c9c-bb93130031ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\widget">
+      <UniqueIdentifier>{18683ec2-9c25-45e4-bcb0-9adcef79375f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wgraphics_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="WGraphics.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="WGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="items\aiitembase.h">
+      <Filter>Header Files\items</Filter>
+    </ClInclude>
+    <ClInclude Include="items\wpolyitem.h">
+      <Filter>Header Files\items</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="items\aiitembase.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\wcircleitem.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\wimageitem.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\wpathitem.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="items\wpolyitem.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\wgraphicsscene.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\wgraphicsview.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="widget\wgraphicswidget.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="items\wcircleitem.h">
+      <Filter>Header Files\items</Filter>
+    </QtMoc>
+    <QtMoc Include="items\wimageitem.h">
+      <Filter>Header Files\items</Filter>
+    </QtMoc>
+    <QtMoc Include="items\wpathitem.h">
+      <Filter>Header Files\items</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\wgraphicsscene.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\wgraphicsview.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+    <QtMoc Include="widget\wgraphicswidget.h">
+      <Filter>Header Files\widget</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

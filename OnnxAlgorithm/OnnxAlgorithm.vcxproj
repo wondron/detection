@@ -140,8 +140,8 @@
       <AdditionalDependencies>onnxruntime.lib;onnxruntime_providers_shared.lib;BaseData64d.lib;opencv_world481d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /s /y /d"$(AIMS3RD)\onnxRuntime1.14.1\dll\*.dll" "..\bin\"
-xcopy /s /y /d"$(AIMS3RD)\opencv\opencv4.8.1\dll\*world481d.dll" "..\bin\"</Command>
+      <Command>xcopy /s /y /d "$(AIMS3RD)\onnxRuntime1.14.1\dll\*.dll" "..\bin\"
+xcopy /s /y /d "$(AIMS3RD)\opencv\opencv4.8.1\dll\*world481d.dll" "..\bin\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
